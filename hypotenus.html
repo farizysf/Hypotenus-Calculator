@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hypotenus Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img id="blackboard" src="/images/blackboard.png" alt="icon" />
+      <nav class="dropdown">
+        <button>Menu</button>
+        <div class="content">
+          <ul class="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hypotenus.html">Hypotenus</a></li>
+            <li><a href="shortSide.html">Side a/b</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="main">
+      <main>
+        <h1>Hypotenus Calculator</h1>
+        <h3>Calculating Hypotenus</h3>
+        <p>
+          You may put in 2 values, a and b, to represent the length of the 2
+          sides of the triangle.
+        </p>
+        <br>
+        <div class="input">
+          <label class="input" id="label">Please enter value for a :</label><br />
+          <input class="input" type="text" id="input" /><br />
+          <button class="input" id="button">Submit</button>
+          <button class="input" id="reset">Reset</button>
+        </div>
+        <script src="hypotenus.js"></script>
+        <br>
+        <p id="p1">The two values entered are :</p>
+        <p id="p2">The hypotenus is :</p>
+      </main>
+    </div>
+  </body>
+</html>

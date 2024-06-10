@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hypotenus Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img id="blackboard" src="/images/blackboard.png" alt="icon" />
+      <nav class="dropdown">
+        <button>Menu</button>
+        <div class="content">
+          <ul class="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hypotenus.html">Hypotenus</a></li>
+            <li><a href="shortSide.html">Side a/b</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="main">
+      <main>
+        <h1>Hypotenus Calculator</h1>
+        <h3>Calculating Side a/b</h3>
+        <p>
+          You may put in the value of the hypotenus, h, and the value of the
+          known side (a/b)
+        </p>
+        <div class="input">
+          <label class="input" id="label">Please enter value for h :</label><br />
+          <input class="input" type="text" id="input" /><br />
+          <button class="input" id="button">Submit</button>
+          <button class="input" id="reset">Reset</button>
+        </div>
+        <script src="side.js"></script>
+        <p id="p1">The hypotenus is :</p>
+        <p id="p2">The value of the known side :</p>
+        <p id="p3">The value of the other side :</p>
+      </main>
+    </div>
+  </body>
+</html>
